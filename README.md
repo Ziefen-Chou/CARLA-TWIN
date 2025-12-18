@@ -11,7 +11,7 @@ CARLA-Twin facilitates networking research for Digital Twins by utilizing a dual
   <table border="0">
     <tr>
       <td align="center">
-        <img src="assets/effect.gif" width="50px">
+        <img src="assets/effect.gif" width="150px">
         <br />
         <b>Physical World</b>
       </td>
