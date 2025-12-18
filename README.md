@@ -8,6 +8,10 @@ Communication between CARLA instances is handled via MQTTS (encrypted MQTT). We 
 
 # Running Logic
 ## ComDef_Syn_by_MQTT.py
+Please first run this file. This script receives state data from the physical world CARLA and forwards it to the twin world CARLA. It includes configurable parameters for packet loss and transmission latency, allowing users to investigate how different communication flaws affect the system's performance.
 ## Physical_Auto.py
+This script populates the physical world CARLA with autonomous vehicles and captures state data, such as position, speed, and collision logs. The collected data is then transmitted to the MQTT broker to enable communication with the twin world CARLA.
 ## Physical_Manual.py
+This is the manual control version of the physical world CARLA.
 ## Twin_world_syn_by_mqtts.py
+This script subscribes to the MQTT broker to retrieve state data from the physical world CARLA. It then populates the twin world CARLA environment with corresponding vehicles, maintaining real-time synchronisation of their positions and speeds.
