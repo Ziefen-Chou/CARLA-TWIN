@@ -7,7 +7,23 @@
 # Overview
 CARLA-Twin facilitates networking research for Digital Twins by utilizing a dual-computer CARLA architecture. In this setup, one CARLA instance represents the physical world and the other acts as the twin, connected through a bidirectional MQTT communication bridge. The framework allows researchers to define network impairments, such as latency and packet loss, to evaluate how communication constraints impact DT synchronization and application-level performance.
 
-<img src="assets/effect.gif" width="40%">
+<div align="center">
+  <table border="0">
+    <tr>
+      <td align="center">
+        <img src="assets/effect.gif" width="400px">
+        <br />
+        <b>Physical World</b>
+      </td>
+      <td align="center">
+        <img src="assets/architecture_v5.eps" width="400px">
+        <br />
+        <b>Digital Twin</b>
+      </td>
+    </tr>
+  </table>
+  <p align="center"><i>Figure: Real-time synchronization between the physical and twin CARLA instances.</i></p>
+</div>
 
 # Prerequisites
 ## CARLA
