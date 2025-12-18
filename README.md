@@ -38,3 +38,16 @@ This script populates the physical world CARLA with autonomous vehicles and capt
 This is the manual control version of the physical world CARLA.
 ## Twin_world_syn_by_mqtts.py
 This script subscribes to the MQTT broker to retrieve state data from the physical world CARLA. It then populates the twin world CARLA environment with corresponding vehicles, maintaining real-time synchronisation of their positions and speeds.
+
+# Citation
+If you find our repository useful, please consider giving it a star ⭐ and citing our work:
+
+```bibtex
+@inproceedings{zhou2025carla,
+  title={CARLA-Twin: A Large-Scale Digital Twin Platform for Advanced Networking Research},
+  author={Zhou, Zifan and Lai, Cheng-Chia and Han, Bo and Hsu, Cheng-Hsin and Chen, Songqing and Li, Bin},
+  booktitle={IEEE INFOCOM 2025-IEEE Conference on Computer Communications Workshops (INFOCOM WKSHPS)},
+  pages={1--6},
+  year={2025},
+  organization={IEEE}
+}
