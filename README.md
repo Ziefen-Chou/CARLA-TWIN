@@ -4,6 +4,13 @@
   <a href="chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://sites.psu.edu/binli/files/2025/03/INFOCOM_workshop_Digital-Twin2025.pdf"><img src="https://img.shields.io/badge/Paper-blue"></a>
 </div>
 
+# Overview
+CARLA-Twin facilitates networking research for Digital Twins by utilizing a dual-computer CARLA architecture. In this setup, one CARLA instance represents the physical world and the other acts as the twin, connected through a bidirectional MQTT communication bridge. The framework allows researchers to define network impairments, such as latency and packet loss, to evaluate how communication constraints impact DT synchronization and application-level performance.
+<div align="center">
+  <video src="[https://link-to-your-video.mp4](https://pennstateoffice365-my.sharepoint.com/:v:/g/personal/zqz5454_psu_edu/IQDnFwiuTBDrTb7xESvpCmXCAZGmG_WQ0a8yxZ8_9zOWW84?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=wfVogD)" width="800px" autoplay muted loop>
+  </video>
+</div>
+
 # Prerequisites
 ## CARLA
 This framework is built upon the open-source CARLA simulator. To reproduce this environment, CARLA must first be installed on a local server. While pre-compiled versions are available at https://carla.org/, we recommend building CARLA from source to ensure full compatibility and access to customizable features, as detailed in https://carla.readthedocs.io/en/latest/build_carla/.
