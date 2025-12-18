@@ -39,6 +39,9 @@ This is the manual control version of the physical world CARLA.
 ## Twin_world_syn_by_mqtts.py
 This script subscribes to the MQTT broker to retrieve state data from the physical world CARLA. It then populates the twin world CARLA environment with corresponding vehicles, maintaining real-time synchronisation of their positions and speeds.
 
+
+# Running Logic - Single Server
+
 # Citation
 If you find our repository useful, please consider giving it a star ⭐ and citing our work:
 
