@@ -30,7 +30,7 @@ This framework is built upon the open-source CARLA simulator. To reproduce this 
 Communication between CARLA instances is handled via MQTTS (encrypted MQTT). We recommend setting up a self-hosted MQTT broker; however, commercial cloud platforms like HiveMQ or EMQX are viable alternatives. Note that while these platforms often provide free access for unencrypted traffic (port 1883), encrypted connections (port 8883) usually involve additional costs.
 
 # Running Logic - Dual Server
-This section details the DT system implementation using dual CARLA instances and an MQTT broker. If you are operating on a single server without MQTT, skip to 'Running Logic - Single Server.' There, we provide dedicated code for socket-based communication and parallelized CARLA simulations.
+This section details the DT system implementation using dual CARLA instances and an MQTT broker. If you only have one CARLA server without an MQTT broker, please refer to the [Running Logic - Single Server](#running-logic---single-server) section. There, we provide dedicated code for socket-based communication and parallelized CARLA simulations.
 ## ComDef_Syn_by_MQTT.py
 Please first run this file. This script receives state data from the physical world CARLA and forwards it to the twin world CARLA. It includes configurable parameters for packet loss and transmission latency, allowing users to investigate how different communication flaws affect the system's performance.
 ## Physical_Auto.py
