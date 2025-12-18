@@ -7,7 +7,7 @@
 # Overview
 CARLA-Twin facilitates networking research for Digital Twins by utilizing a dual-computer CARLA architecture. In this setup, one CARLA instance represents the physical world and the other acts as the twin, connected through a bidirectional MQTT communication bridge. The framework allows researchers to define network impairments, such as latency and packet loss, to evaluate how communication constraints impact DT synchronization and application-level performance.
 <div align="center">
-  <video src="[https://link-to-your-video.mp4](https://pennstateoffice365-my.sharepoint.com/:v:/g/personal/zqz5454_psu_edu/IQDnFwiuTBDrTb7xESvpCmXCAZGmG_WQ0a8yxZ8_9zOWW84?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=wfVogD)" width="800px" autoplay muted loop>
+  <video src="https://pennstateoffice365-my.sharepoint.com/:v:/r/personal/zqz5454_psu_edu/Documents/personal_research/Second-Work-DT/CARLA-TWIN%20Github/effect.mp4?csf=1&web=1&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=8Qkx84" width="800px" autoplay muted loop>
   </video>
 </div>
 
