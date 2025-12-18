@@ -1,7 +1,7 @@
 <div align="center">
   <h1>CARLA-Twin: A Large-Scale Digital Twin Platform for Advanced Networking Research</h1>
 
-  <a href="chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://sites.psu.edu/binli/files/2025/03/INFOCOM_workshop_Digital-Twin2025.pdf"><img src="https://img.shields.io/badge/Paper-blue"></a>
+  <a href="[chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://sites.psu.edu/binli/files/2025/03/INFOCOM_workshop_Digital-Twin2025.pdf](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11152793)"><img src="https://img.shields.io/badge/Paper-blue"></a>
 </div>
 
 # Overview
