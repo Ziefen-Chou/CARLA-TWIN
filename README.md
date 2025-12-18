@@ -29,7 +29,7 @@ This framework is built upon the open-source CARLA simulator. To reproduce this 
 ## Message Queue Telemetry Transport Protocol (MQTT)
 Communication between CARLA instances is handled via MQTTS (encrypted MQTT). We recommend setting up a self-hosted MQTT broker; however, commercial cloud platforms like HiveMQ or EMQX are viable alternatives. Note that while these platforms often provide free access for unencrypted traffic (port 1883), encrypted connections (port 8883) usually involve additional costs.
 
-# Running Logic
+# Running Logic - Dual Server
 ## ComDef_Syn_by_MQTT.py
 Please first run this file. This script receives state data from the physical world CARLA and forwards it to the twin world CARLA. It includes configurable parameters for packet loss and transmission latency, allowing users to investigate how different communication flaws affect the system's performance.
 ## Physical_Auto.py
