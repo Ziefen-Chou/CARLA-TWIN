@@ -43,6 +43,11 @@ This script subscribes to the MQTT broker to retrieve state data from the physic
 
 # Running Logic - Single Server
 For single-server configurations without an MQTT broker, please utilize the three implementation scripts located in the Single_Server directory.
+## Physical_world.py
+
+## Scheduler.py
+
+## Twin_world.py
 
 # Citation
 If you find our repository useful, please consider giving it a star ⭐ and citing our work:
